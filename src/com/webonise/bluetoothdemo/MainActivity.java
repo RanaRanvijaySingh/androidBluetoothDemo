@@ -10,6 +10,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * @author Ranvijay This application shows the use of bluetooth that can be
+ *         activated and de-activated from an application .
+ */
 public class MainActivity extends Activity implements OnClickListener {
 
 	private static final int ENABLE_BLUETOOTH = 0;
@@ -24,6 +28,9 @@ public class MainActivity extends Activity implements OnClickListener {
 		initializeComponents();
 	}
 
+	/**
+	 * Function to initialize the buttons and other objects.
+	 */
 	private void initializeComponents() {
 		final Button buttonStart = (Button) findViewById(R.id.buttonStart);
 		final Button buttonSearch = (Button) findViewById(R.id.buttonDiscoverable);
@@ -37,6 +44,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		}
 	}
 
+	
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
