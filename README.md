@@ -1,12 +1,12 @@
 androidBluetoothDemo
 ====================
 This application shows you how to use bluetooth of the device . The function is there to enable and disable the bluetooth and to make the device discoverable .
-The steps involved in this process is as follows : 
-
-Step 1: Add permission to the uses in android mainfest  file .
-Step 2: Create the layout of buttons to start and stop the bluetooth .
-Step 3: Create the class to use enable the bluetooth functions.
-
+<br/>The steps involved in this process is as follows : 
+<br/>
+<br/>Step 1: Add permission to the uses in android mainfest  file .
+<br/>Step 2: Create the layout of buttons to start and stop the bluetooth .
+<br/>Step 3: Create the class to use enable the bluetooth functions.
+<br/><br/>
 _________________________________________________________________________________________________________________________________________________________
 
 Step 1: Add permission to the uses in android mainfest  file .
